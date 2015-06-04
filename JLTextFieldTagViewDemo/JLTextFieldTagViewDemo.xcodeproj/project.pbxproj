@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCBFBE9F1B1F014E00233561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFBE9E1B1F014E00233561 /* main.m */; };
+		BCBFBEA21B1F014E00233561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFBEA11B1F014E00233561 /* AppDelegate.m */; };
+		BCBFBEA51B1F014E00233561 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFBEA41B1F014E00233561 /* ViewController.m */; };
+		BCBFBEA81B1F014E00233561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBFBEA61B1F014E00233561 /* Main.storyboard */; };
+		BCBFBEAA1B1F014E00233561 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBFBEA91B1F014E00233561 /* Images.xcassets */; };
+		BCBFBEAD1B1F014E00233561 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCBFBEAB1B1F014E00233561 /* LaunchScreen.xib */; };
+		BCBFBEB91B1F014E00233561 /* JLTextFieldTagViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFBEB81B1F014E00233561 /* JLTextFieldTagViewDemoTests.m */; };
+		BCBFBEC71B1F018A00233561 /* JLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFBEC41B1F018A00233561 /* JLTextField.m */; };
+		BCBFBEC81B1F018A00233561 /* JLTextFieldTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBFBEC61B1F018A00233561 /* JLTextFieldTagView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCBFBEB31B1F014E00233561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCBFBE911B1F014E00233561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCBFBE981B1F014E00233561;
+			remoteInfo = JLTextFieldTagViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCBFBE991B1F014E00233561 /* JLTextFieldTagViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLTextFieldTagViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBFBE9D1B1F014E00233561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBFBE9E1B1F014E00233561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCBFBEA01B1F014E00233561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCBFBEA11B1F014E00233561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCBFBEA31B1F014E00233561 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCBFBEA41B1F014E00233561 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCBFBEA71B1F014E00233561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCBFBEA91B1F014E00233561 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCBFBEAC1B1F014E00233561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCBFBEB21B1F014E00233561 /* JLTextFieldTagViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLTextFieldTagViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBFBEB71B1F014E00233561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBFBEB81B1F014E00233561 /* JLTextFieldTagViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTextFieldTagViewDemoTests.m; sourceTree = "<group>"; };
+		BCBFBEC31B1F018A00233561 /* JLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTextField.h; sourceTree = "<group>"; };
+		BCBFBEC41B1F018A00233561 /* JLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTextField.m; sourceTree = "<group>"; };
+		BCBFBEC51B1F018A00233561 /* JLTextFieldTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTextFieldTagView.h; sourceTree = "<group>"; };
+		BCBFBEC61B1F018A00233561 /* JLTextFieldTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTextFieldTagView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCBFBE961B1F014E00233561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBFBEAF1B1F014E00233561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCBFBE901B1F014E00233561 = {
+			isa = PBXGroup;
+			children = (
+				BCBFBE9B1B1F014E00233561 /* JLTextFieldTagViewDemo */,
+				BCBFBEB51B1F014E00233561 /* JLTextFieldTagViewDemoTests */,
+				BCBFBE9A1B1F014E00233561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCBFBE9A1B1F014E00233561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFBE991B1F014E00233561 /* JLTextFieldTagViewDemo.app */,
+				BCBFBEB21B1F014E00233561 /* JLTextFieldTagViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCBFBE9B1B1F014E00233561 /* JLTextFieldTagViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFBEC21B1F018A00233561 /* JLTextField */,
+				BCBFBEA01B1F014E00233561 /* AppDelegate.h */,
+				BCBFBEA11B1F014E00233561 /* AppDelegate.m */,
+				BCBFBEA31B1F014E00233561 /* ViewController.h */,
+				BCBFBEA41B1F014E00233561 /* ViewController.m */,
+				BCBFBEA61B1F014E00233561 /* Main.storyboard */,
+				BCBFBEA91B1F014E00233561 /* Images.xcassets */,
+				BCBFBEAB1B1F014E00233561 /* LaunchScreen.xib */,
+				BCBFBE9C1B1F014E00233561 /* Supporting Files */,
+			);
+			path = JLTextFieldTagViewDemo;
+			sourceTree = "<group>";
+		};
+		BCBFBE9C1B1F014E00233561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFBE9D1B1F014E00233561 /* Info.plist */,
+				BCBFBE9E1B1F014E00233561 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCBFBEB51B1F014E00233561 /* JLTextFieldTagViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFBEB81B1F014E00233561 /* JLTextFieldTagViewDemoTests.m */,
+				BCBFBEB61B1F014E00233561 /* Supporting Files */,
+			);
+			path = JLTextFieldTagViewDemoTests;
+			sourceTree = "<group>";
+		};
+		BCBFBEB61B1F014E00233561 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFBEB71B1F014E00233561 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCBFBEC21B1F018A00233561 /* JLTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BCBFBEC31B1F018A00233561 /* JLTextField.h */,
+				BCBFBEC41B1F018A00233561 /* JLTextField.m */,
+				BCBFBEC51B1F018A00233561 /* JLTextFieldTagView.h */,
+				BCBFBEC61B1F018A00233561 /* JLTextFieldTagView.m */,
+			);
+			name = JLTextField;
+			path = ../../JLTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCBFBE981B1F014E00233561 /* JLTextFieldTagViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBFBEBC1B1F014E00233561 /* Build configuration list for PBXNativeTarget "JLTextFieldTagViewDemo" */;
+			buildPhases = (
+				BCBFBE951B1F014E00233561 /* Sources */,
+				BCBFBE961B1F014E00233561 /* Frameworks */,
+				BCBFBE971B1F014E00233561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLTextFieldTagViewDemo;
+			productName = JLTextFieldTagViewDemo;
+			productReference = BCBFBE991B1F014E00233561 /* JLTextFieldTagViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCBFBEB11B1F014E00233561 /* JLTextFieldTagViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBFBEBF1B1F014E00233561 /* Build configuration list for PBXNativeTarget "JLTextFieldTagViewDemoTests" */;
+			buildPhases = (
+				BCBFBEAE1B1F014E00233561 /* Sources */,
+				BCBFBEAF1B1F014E00233561 /* Frameworks */,
+				BCBFBEB01B1F014E00233561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCBFBEB41B1F014E00233561 /* PBXTargetDependency */,
+			);
+			name = JLTextFieldTagViewDemoTests;
+			productName = JLTextFieldTagViewDemoTests;
+			productReference = BCBFBEB21B1F014E00233561 /* JLTextFieldTagViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCBFBE911B1F014E00233561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = 16fan;
+				TargetAttributes = {
+					BCBFBE981B1F014E00233561 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BCBFBEB11B1F014E00233561 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BCBFBE981B1F014E00233561;
+					};
+				};
+			};
+			buildConfigurationList = BCBFBE941B1F014E00233561 /* Build configuration list for PBXProject "JLTextFieldTagViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCBFBE901B1F014E00233561;
+			productRefGroup = BCBFBE9A1B1F014E00233561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCBFBE981B1F014E00233561 /* JLTextFieldTagViewDemo */,
+				BCBFBEB11B1F014E00233561 /* JLTextFieldTagViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCBFBE971B1F014E00233561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBFBEA81B1F014E00233561 /* Main.storyboard in Resources */,
+				BCBFBEAD1B1F014E00233561 /* LaunchScreen.xib in Resources */,
+				BCBFBEAA1B1F014E00233561 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBFBEB01B1F014E00233561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCBFBE951B1F014E00233561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBFBEA51B1F014E00233561 /* ViewController.m in Sources */,
+				BCBFBEC81B1F018A00233561 /* JLTextFieldTagView.m in Sources */,
+				BCBFBEA21B1F014E00233561 /* AppDelegate.m in Sources */,
+				BCBFBE9F1B1F014E00233561 /* main.m in Sources */,
+				BCBFBEC71B1F018A00233561 /* JLTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBFBEAE1B1F014E00233561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBFBEB91B1F014E00233561 /* JLTextFieldTagViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCBFBEB41B1F014E00233561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCBFBE981B1F014E00233561 /* JLTextFieldTagViewDemo */;
+			targetProxy = BCBFBEB31B1F014E00233561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCBFBEA61B1F014E00233561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBFBEA71B1F014E00233561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCBFBEAB1B1F014E00233561 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBFBEAC1B1F014E00233561 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCBFBEBA1B1F014E00233561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCBFBEBB1B1F014E00233561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCBFBEBD1B1F014E00233561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLTextFieldTagViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCBFBEBE1B1F014E00233561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLTextFieldTagViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCBFBEC01B1F014E00233561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JLTextFieldTagViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLTextFieldTagViewDemo.app/JLTextFieldTagViewDemo";
+			};
+			name = Debug;
+		};
+		BCBFBEC11B1F014E00233561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JLTextFieldTagViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLTextFieldTagViewDemo.app/JLTextFieldTagViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCBFBE941B1F014E00233561 /* Build configuration list for PBXProject "JLTextFieldTagViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBFBEBA1B1F014E00233561 /* Debug */,
+				BCBFBEBB1B1F014E00233561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBFBEBC1B1F014E00233561 /* Build configuration list for PBXNativeTarget "JLTextFieldTagViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBFBEBD1B1F014E00233561 /* Debug */,
+				BCBFBEBE1B1F014E00233561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCBFBEBF1B1F014E00233561 /* Build configuration list for PBXNativeTarget "JLTextFieldTagViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBFBEC01B1F014E00233561 /* Debug */,
+				BCBFBEC11B1F014E00233561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCBFBE911B1F014E00233561 /* Project object */;
+}
